@@ -770,7 +770,7 @@ const defaultInternals: Options['_internals'] = {
 	},
 	https: {
 		alpnProtocols: undefined,
-		rejectUnauthorized: undefined,
+		rejectUnauthorized: true,
 		checkServerIdentity: undefined,
 		certificateAuthority: undefined,
 		key: undefined,
